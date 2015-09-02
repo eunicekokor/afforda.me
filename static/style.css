@@ -1,0 +1,56 @@
+html{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+#landing-pic { 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  /*background: url(/img/flowers2.jpg) no-repeat fixed;*/ 
+  background: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#subtext{
+  color: white;
+  position: absolute;
+  margin: 42% 0% 0% 42%;
+  font-size: 5em;
+  display: none;
+}
+
+#landing-logo { 
+  position: absolute;
+  z-index: 1000;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  margin-left: 25%;
+  border-style:solid;
+  border-width: 5px;
+  color: white;
+}
+#landing-logo:hover{
+  /*background: url(/img/giphy.gif) no-repeat center fixed;
+  /*background: linear-gradient(to right, lightcoral , lightseagreen); /* Standard syntax */
+  background: lightcoral;
+  background-size: cover;
+  border-style:none;
+  padding: 5px;
+}
+
+@media screen and (max-width: 975px) {
+    img {
+        width: 300px;
+    }
+    #next{
+      width: 100%;
+    }
+}

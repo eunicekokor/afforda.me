@@ -18,12 +18,27 @@ html{
   background-size: cover;
 }
 
-#subtext{
-  color: white;
-  position: absolute;
-  margin: 42% 0% 0% 42%;
-  font-size: 5em;
+.subtext{
   display: none;
+}
+
+#email_sub{
+position: absolute;
+  margin: 42% 0% 0% 42%;
+}
+
+#email{
+  background: white;
+  color: black;
+  
+  font-size: 3em;
+  z-index: 1000;
+  width: 100px;
+  height: 100px;
+}
+
+#submit_email{
+
 }
 
 #landing-logo { 
@@ -47,10 +62,17 @@ html{
 }
 
 @media screen and (max-width: 975px) {
-    img {
-        width: 300px;
-    }
-    #next{
-      width: 100%;
-    }
+
+  #subtext{
+  display: inline-block;
+}
+landing-logo:active{
+  /*background: url(/img/giphy.gif) no-repeat center fixed;
+  /*background: linear-gradient(to right, lightcoral , lightseagreen); /* Standard syntax */
+  background: lightcoral;
+  background-size: cover;
+  border-style:none;
+  padding: 5px;
+}
+
 }
